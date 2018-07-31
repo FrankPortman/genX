@@ -34,7 +34,7 @@ Another limitation is that traditional generator expressions rely on a `pull` mo
 
 This library attempts to address all 3 use cases with as intuitive of a syntax as regular Python generators.
 
-Implementation is heavily inspired by the concept of [transducers](https://clojure.org/reference/transducers) (most notably from Clojure). This is a somewhat opionated implementation of just some of the concepts of transducers + some directed graph niceties.
+Implementation is heavily inspired by the concept of [transducers](https://clojure.org/reference/transducers) (most notably from Clojure). This is a somewhat opionated implementation of just some of the concepts of transducers + some directed graph niceties. For heavy duty applications you may want to consider a proper flow-based DAG such as Luigi.
 
 Other projects doing something similar:
 - https://github.com/cognitect-labs/transducers-python
