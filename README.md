@@ -37,5 +37,5 @@ This library attempts to address all 3 use cases with as intuitive of a syntax a
 Implementation is heavily inspired by the concept of [transducers](https://clojure.org/reference/transducers) (most notably from Clojure). This is a somewhat opionated implementation of just some of the concepts of transducers + some directed graph niceties.
 
 Other projects doing something similar:
-https://github.com/cognitect-labs/transducers-python
-https://github.com/sixty-north/python-transducers
+- https://github.com/cognitect-labs/transducers-python
+- https://github.com/sixty-north/python-transducers
